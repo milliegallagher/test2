@@ -1,6 +1,6 @@
 ---
 title: "Lab 00 - Hello IDS!"
-author: "INSERT TEAM NAME HERE"
+author: "Maths Gang"
 date: "`r Sys.Date()`"
 output: github_document
 ---
