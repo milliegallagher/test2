@@ -12,14 +12,15 @@ library(tidyverse)
 ```
 
 ### Exercises 13--17
+sample(20,1)
 
 We set up the data frame.
 
 ```{r setup-tibble}
 usernames <- c("wilsonamy", "milliegallagher", "FibonAdi", "username 3", "username 4") #Extend if necessary
-nums <- c(18, NA, NA, NA, NA) #Extend if necessary
-colours <- c("powderblue", "Colour 1", "colour 2", "colour 2", "colour 4") #Extend if necessary
-hobbies <- c("Hiking", "Hobby 1", "Hobby 2", "Hobby 3", "Hobby 4") #Extend if necessary
+nums <- c(18, 6, 18, 8, 9) #Extend if necessary
+colours <- c("powderblue", "pink", "purple", "red", "green") #Extend if necessary
+hobbies <- c("Hiking", "read", "netball", "guitar", "bake") #Extend if necessary
 
 team_data <- tibble(username = usernames, die_roll = nums, colour = colours,
                     hobby = hobbies)
